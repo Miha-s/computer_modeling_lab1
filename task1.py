@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import sympy as sp
-import numpy as np
+
 x = sp.Symbol('x')
 f = -sp.ln(sp.cos(x))
 a = 0
@@ -11,6 +11,7 @@ precision_digits = 2
 
 print("a: ", a)
 print("b: ", b)
+print("h: ", h)
 print("precision: ", precision_digits)
 print("The function: ", f)
 
